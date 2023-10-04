@@ -1,4 +1,4 @@
-# Day 2 (5th October 2023)
+# Day 2 (4th October 2023)
 
 <ul>
 <li>img tag - Images are specified. </li>

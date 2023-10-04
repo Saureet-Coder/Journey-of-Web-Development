@@ -1,4 +1,4 @@
-# Day 1 (3th October 2023)
+# Day 1 (3rd October 2023)
 
 <ul>
 <li>Basic structure of HTML page (File: Structure.html) </li>
