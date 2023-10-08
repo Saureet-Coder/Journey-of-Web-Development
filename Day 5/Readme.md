@@ -5,7 +5,7 @@
 <li>Semantic tags add meaning to your HTML</li>
 <br>
 <li> header: Used to represent the top section of a web page, often containing headings, logos, and navigation.</li>
-<li>nav>: Signifies a navigation menu on a web page.</li>
+<li>nav: Signifies a navigation menu on a web page.</li>
 <li>article: Indicates a self-contained piece of content, such as a blog post or news article.</li>
 <li>section: Represents a thematic grouping of content on a web page.</li>
 <li>aside: Typically used for sidebars or content that is tangentially related to the main content.</li>
