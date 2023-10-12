@@ -1,0 +1,22 @@
+ 
+span {
+    padding: 12px;
+    background-color: red;
+}
+
+.class{
+    padding: 12px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+#id{
+    padding: 20px;
+    background-color: blue;
+    margin-top: 12px;
+}
+/* Universal Selector */
+*{
+    color: white;
+    
+}
