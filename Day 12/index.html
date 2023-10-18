@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+</head>
+<style>
+    .red{
+        color: red;
+    }
+    .green{
+        color: green !important;
+    }
+    .yellow{
+        color: yellow;
+    }
+    .blue{
+        color: blue;
+    }
+</style>
+<body>
+    <h1 class="red yellow">CSS Cascade Algorithm - 1 (Position {1})</h1>
+    <h1 class="blue yellow red">CSS Cascade Algorithm - 2 (Position {2})</h1>
+    <h1 class="red yellow green">CSS Cascade Algorithm - 3 (Important syntax)</h1>
+    <h1 class="red yellow" style="color: brown;">CSS Cascade Algorithm - 4 (Inline)</h1>
+</body>
+</html>
