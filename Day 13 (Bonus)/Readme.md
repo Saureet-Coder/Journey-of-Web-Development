@@ -15,8 +15,8 @@
 <li>h-offset , v-offset , blur , color</li>
 
 # Differences between Outlines and Borders:
-<ol type="i">
+<ul type="square">
 <li>Position: Outlines don't take up space; they're drawn around the element, outside of any border.</li>
-</ol>
+</ul>
 
 </ul>
