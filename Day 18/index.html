@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+</head>
+<style>
+    body{
+        background-color: blue;
+    }
+    .parent{
+        display: flex;
+    }
+    .box{
+        color: white;
+        border: 2px solid yellow;
+        padding: 20px;
+        margin-left: 15px;
+        
+    }
+    @media screen and (max-width:455px) {
+        body{
+            background-color: green;
+        }
+        .parent{
+            display: block;
+        }
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="box">Responsive design</div>
+        <div class="box">Responsive design</div>
+        <div class="box">Responsive design</div>
+    </div>
+</body>
+</html>
