@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow: scroll;
+    }
+    .nav-col{
+        background-color: pink;
+        padding: 20px;
+        color: pink;
+    }
+    .parent{
+        background-color: green;
+        padding: 20px;
+        height: 60vh;
+        /* position: relative; */
+        margin: 5px;
+        display: flex;
+        
+    }
+    .parent-box{
+        display: flex;
+        margin: 30px;
+
+    }
+    .box1{
+        background-color: rgb(255, 229, 180);
+        height: 50vh;
+        width: 30vw;
+        margin-right: 420px;
+
+    }
+    
+    .box2{
+        background-color: blue;
+        height: 50vh;
+        width: 30vw;
+
+    }
+    .roundbord{
+        text-align: center;
+        border: 3px solid green;
+        width: 42vw;
+        margin: auto;
+        border-radius: 15px;
+        padding: 20px;
+        font-size: 2rem;
+    }
+    .foot{
+        background-color: grey;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .stick{
+        background-color: orange;
+        position: fixed;
+        bottom: 5px;
+        right: 9px;
+        padding: 25px;
+        border-radius: 100px;
+    }
+</style>
+<body>
+    <nav>
+        <div class="nav-col">a</div>
+    </nav>
+    <div class="parent">
+        <div class="parent-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+    </div>
+    <div class="stick"></div>
+    <div class="roundbord">Welcome to this Web Development</div>
+    <footer >
+        <div class="foot"></div>
+    </footer>
+</body>
+</html>
