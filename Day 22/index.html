@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+</head>
+<style>
+    .container{
+        width: 95vw;
+        height: 80vh;
+        border: 2px solid black;
+    }
+    .parent{
+        margin: 20px;
+        display: grid;
+        grid-template-areas: "a b c"
+                             "d e f";
+        
+    }
+    .box{
+        background-color: blue;
+        padding: 20px;
+        width: 100px;
+        margin: 20px;
+        height: 75px;
+    }
+    .box-1{
+        grid-area: a;
+    }
+    .box-2{grid-area: b;}
+    .box-3{grid-area: c;}
+    .box-4{grid-area: d;}
+    .box-5{grid-area: e;}
+    .box-6{grid-area: f;}
+    .Transform-1{
+        transform: rotate(40deg);
+    }
+    .Transform-2{
+        transform: rotateX(45deg);
+    }
+    .Transform-3{
+        transform: rotateY(40deg);
+    }
+    .Transform-4{
+        transform: skew(40deg);
+    }
+    .Transform-5{
+        transform: translate(40px);
+    }
+    .Transform-6{
+        transform: translateY(100px);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="box box-1 Transform-1"></div>
+            <div class="box box-2 Transform-2"></div>
+            <div class="box box-3 Transform-3"></div>
+            <div class="box box-4 Transform-4"></div>
+            <div class="box box-5 Transform-5"></div>
+            <div class="box box-6 Transform-6"></div>
+        </div> 
+    </div>
+    
+</body>
+</html>
